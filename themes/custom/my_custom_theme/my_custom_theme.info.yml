@@ -1,0 +1,8 @@
+name: 'My Custom Theme'
+type: theme
+description: 'A custom theme for Drupal.'
+core_version_requirement: ^8 || ^9
+base theme: claro
+debug: true
+libraries:
+  - my_custom_theme/global-styling

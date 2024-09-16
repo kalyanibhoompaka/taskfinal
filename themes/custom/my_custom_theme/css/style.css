@@ -1,0 +1,177 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin:5px;
+    align-items: center;
+  }
+  
+  .card {
+   
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow-x: auto;
+    border-spacing: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .card img {
+
+    border-radius: 4px;
+  }
+  
+  .card-body {
+    margin-top: 0.5rem;
+  }
+  .address-card{
+    padding-left: 15px;
+    font-size: 12px;
+  }
+
+  #block-my-custom-theme-content > div > div > div.view-content > div > div.view-grouping-content > div > div > div.views-col > div > div{
+    font-size: 18px;
+  }
+  .scroll-container {
+    position: relative;
+}
+
+.scroll-left, .scroll-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.scroll-left {
+    left: 0;
+}
+
+.scroll-right {
+    right: 0;
+}
+#block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-header{
+  text-align:center;
+  font-size: 22px;
+}
+#block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-content > h3{
+  font-size: 15px;
+  color: gray;
+  text-align:center;
+}
+#block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-content > div{
+  margin-left: 10%;
+}
+
+
+#block-cardsmenu > ul > li:nth-child(1){
+  float:left;
+  list-style-type:none;
+  margin-right: 200px;text-decoration: none; 
+}
+#block-cardsmenu > ul > li:nth-child(2){
+  float:left;
+  list-style-type:none;
+  margin-right: 150px;
+}
+
+
+#block-cardsmenu > ul > li:nth-child(3){
+  margin-right: 20px;
+  list-style-type:none;
+  float:left;text-decoration: none; 
+}
+#block-cardsmenu > ul > li > a{
+  text-decoration: none; 
+  color:black;
+}
+#block-cardsmenu > ul{
+  display: inline-block;
+}
+#block-cardsmenu{
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: 2px solid rgb(0, 89, 255);
+  background-image:url('images/Vector.png')
+}
+#block-cardsmenu > ul > li > a:hover{
+  text-decoration: underline;
+  color: #017FD5;
+
+}
+#block-cardsmenu{
+  width: 80%;    margin-left: 150px;
+}
+#block-my-custom-theme-content > div > div > li{
+  margin-top:-200px;
+}
+#block-my-custom-theme-content > div > div > nav > ul{
+  display:none;
+}
+#block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-content > div > div > div.views-col.col-1 > div > div > div:nth-child(1) > img{
+    position: relative;
+  display: flex;
+
+}
+#block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-content > div > div > div.views-col.col-1 > div > div > div:nth-child(2) > img{
+    position: absolute;
+    top: 4px;
+    float: right;
+    left: 148px;
+}
+
+#block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-content > div > div > div.views-col.col-1 > div > div > div:nth-child(3) > img{
+
+    position: absolute;
+    top: 10px;
+    right: 65%;
+}
+
+#block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-content > div > div > div.views-col.col-2 > div > div > div:nth-child(1) > img{
+  position: relative;
+  display: flex;
+}
+#block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-content > div > div > div.views-col.col-2 > div > div > div:nth-child(2) > img{
+  position: absolute;
+  float: right;
+  left: 36.6%;
+  top: 5px;
+
+}
+#block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-content > div > div > div.views-col.col-2 > div > div > div:nth-child(3) > img{
+  position: absolute;
+    float: right;
+    left: 55.5%;
+    top: 10px;
+}
+#block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-content > div > div > div.views-col.col-3 > div > div > div:nth-child(1) > img{
+  position: relative;
+  display: flex;
+
+}
+#block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-content > div > div > div.views-col.col-3 > div > div > div:nth-child(2) > img{
+  position: absolute;
+  float: right;
+  /* left: 36.6%; */
+  top: 5px;
+}
+#block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-content > div > div > div.views-col.col-3 > div > div > div:nth-child(3) > img{
+  position: absolute;
+  float: right;
+  right: 13%;
+  top: 10px;
+
+}
+#block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-content > div > div > div.views-col > div > div > div:nth-child(4){
+
+padding-left: 15px;
+}
+#block-cardheadernew > div{
+  padding-bottom: 40px;
+}
+#block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-content > div > div > div.views-col > div > div > div:nth-child(4){
+
+  padding-bottom:10px;
+}
