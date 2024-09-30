@@ -1,0 +1,42 @@
+<div class="tabs-section">
+  <!-- Tab Links --> 
+  {{ page.header }}
+  <ul class="nav nav-tabs">
+  
+    <li class="active">
+      <a href="#tab1" class="tab-link" data-tab="tab1" id="featured-tab" >
+      Featured Conferences</a>
+    </li>
+    <li>
+      <a href="#tab2" class="tab-link" data-tab="tab2" id="recommended-tab" >
+      Recommended Conferences</a>
+    </li>
+    <li>
+      <a href="#tab3" class="tab-link" data-tab="tab3">Past Conferences</a>
+    </li>
+  </ul>
+
+  <!-- Tab Content <img src="themes/custom/my_custom_theme/images/vector.png">-->
+  <div class="tab-content">
+    <!-- Featured Conferences Content -->
+    <div id="tab1" class="tab-pane active">
+      <div class="cards-container">
+        {{ featured_conferences}}
+      </div>
+    </div>
+
+    <!-- Recommended Conferences Content -->
+    <div id="tab2" class="tab-pane">
+      <div class="cards-container">
+        {{ recommended_conferences }}
+      </div>
+    </div>
+
+    <!-- Past Conferences Content -->
+    <div id="tab3" class="tab-pane">
+      <div class="cards-container">
+        {{ past_conferences }}
+      </div>
+    </div>
+  </div>
+</div>

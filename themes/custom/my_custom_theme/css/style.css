@@ -1,167 +1,167 @@
 .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin:5px;
-    align-items: center;
-  }
-  
-  .card {
-   
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow-x: auto;
-    border-spacing: 2rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  }
-  
-  .card img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin:5px;
+  align-items: center;
+}
 
-    border-radius: 4px;
-  }
-  
-  .card-body {
-    margin-top: 0.5rem;
-  }
-  .address-card{
-    padding-left: 15px;
-    font-size: 12px;
-  }
+.card {
+ 
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow-x: auto;
+  border-spacing: 2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
 
-  #block-my-custom-theme-content > div > div > div.view-content > div > div.view-grouping-content > div > div > div.views-col > div > div{
-    font-size: 18px;
-  }
-  .scroll-container {
-    position: relative;
+.card img {
+
+  border-radius: 4px;
+}
+
+.card-body {
+  margin-top: 0.5rem;
+}
+.address-card{
+  padding-left: 15px;
+  font-size: 12px;
+}
+
+#block-my-custom-theme-content > div > div > div.view-content > div > div.view-grouping-content > div > div > div.views-col > div > div{
+  font-size: 18px;
+}
+.scroll-container {
+  position: relative;
 }
 
 .scroll-left, .scroll-right {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: #fff;
-    border: none;
-    cursor: pointer;
-    z-index: 10;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
 }
 
 .scroll-left {
-    left: 0;
+  left: 0;
 }
 
 .scroll-right {
-    right: 0;
+  right: 0;
 }
-#block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-header{
-  text-align:center;
-  font-size: 22px;
+/* #block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-header{
+text-align:center;
+font-size: 22px;
 }
 #block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-content > h3{
-  font-size: 15px;
-  color: gray;
-  text-align:center;
+font-size: 15px;
+color: gray;
+text-align:center;
 }
 #block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-content > div{
-  margin-left: 10%;
-}
+margin-left: 10%;
+} */
 
 
 #block-cardsmenu > ul > li:nth-child(1){
-  float:left;
-  list-style-type:none;
-  margin-right: 200px;text-decoration: none; 
+float:left;
+list-style-type:none;
+margin-right: 200px;text-decoration: none; 
 }
 #block-cardsmenu > ul > li:nth-child(2){
-  float:left;
-  list-style-type:none;
-  margin-right: 150px;
+float:left;
+list-style-type:none;
+margin-right: 150px;
 }
 
 
 #block-cardsmenu > ul > li:nth-child(3){
-  margin-right: 20px;
-  list-style-type:none;
-  float:left;text-decoration: none; 
+margin-right: 20px;
+list-style-type:none;
+float:left;text-decoration: none; 
 }
 #block-cardsmenu > ul > li > a{
-  text-decoration: none; 
-  color:black;
+text-decoration: none; 
+color:black;
 }
 #block-cardsmenu > ul{
-  display: inline-block;
+display: inline-block;
 }
 #block-cardsmenu{
-  text-align: center;
-  margin-bottom: 10px;
-  border-bottom: 2px solid rgb(0, 89, 255);
-  background-image:url('images/Vector.png')
+text-align: center;
+margin-bottom: 10px;
+border-bottom: 2px solid rgb(0, 89, 255);
+background-image:url('images/Vector.png')
 }
 #block-cardsmenu > ul > li > a:hover{
-  text-decoration: underline;
-  color: #017FD5;
+text-decoration: underline;
+color: #017FD5;
 
 }
 #block-cardsmenu{
-  width: 80%;    margin-left: 150px;
+width: 80%;    margin-left: 150px;
 }
 #block-my-custom-theme-content > div > div > li{
-  margin-top:-200px;
+margin-top:-200px;
 }
 #block-my-custom-theme-content > div > div > nav > ul{
-  display:none;
+display:none;
 }
 #block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-content > div > div > div.views-col.col-1 > div > div > div:nth-child(1) > img{
-    position: relative;
-  display: flex;
+  position: relative;
+display: flex;
 
 }
 #block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-content > div > div > div.views-col.col-1 > div > div > div:nth-child(2) > img{
-    position: absolute;
-    top: 4px;
-    float: right;
-    left: 148px;
+  position: absolute;
+  top: 4px;
+  float: right;
+  left: 148px;
 }
 
 #block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-content > div > div > div.views-col.col-1 > div > div > div:nth-child(3) > img{
 
-    position: absolute;
-    top: 10px;
-    right: 65%;
+  position: absolute;
+  top: 10px;
+  right: 65%;
 }
 
 #block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-content > div > div > div.views-col.col-2 > div > div > div:nth-child(1) > img{
-  position: relative;
-  display: flex;
+position: relative;
+display: flex;
 }
 #block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-content > div > div > div.views-col.col-2 > div > div > div:nth-child(2) > img{
-  position: absolute;
-  float: right;
-  left: 36.6%;
-  top: 5px;
+position: absolute;
+float: right;
+left: 36.6%;
+top: 5px;
 
 }
 #block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-content > div > div > div.views-col.col-2 > div > div > div:nth-child(3) > img{
-  position: absolute;
-    float: right;
-    left: 55.5%;
-    top: 10px;
+position: absolute;
+  float: right;
+  left: 55.5%;
+  top: 10px;
 }
 #block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-content > div > div > div.views-col.col-3 > div > div > div:nth-child(1) > img{
-  position: relative;
-  display: flex;
+position: relative;
+display: flex;
 
 }
 #block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-content > div > div > div.views-col.col-3 > div > div > div:nth-child(2) > img{
-  position: absolute;
-  float: right;
-  /* left: 36.6%; */
-  top: 5px;
+position: absolute;
+float: right;
+/* left: 36.6%; */
+top: 5px;
 }
 #block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-content > div > div > div.views-col.col-3 > div > div > div:nth-child(3) > img{
-  position: absolute;
-  float: right;
-  right: 13%;
-  top: 10px;
+position: absolute;
+float: right;
+right: 13%;
+top: 10px;
 
 }
 #block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-content > div > div > div.views-col > div > div > div:nth-child(4){
@@ -169,9 +169,341 @@
 padding-left: 15px;
 }
 #block-cardheadernew > div{
-  padding-bottom: 40px;
+padding-bottom: 40px;
 }
 #block-my-custom-theme-content > div > div > div.view-grouping > div.view-grouping-content > div > div > div.views-col > div > div > div:nth-child(4){
 
-  padding-bottom:10px;
+padding-bottom:10px;
 }
+
+.conference-list {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.conference-card {
+width: 360px;
+border: 1px solid #ddd;
+border-radius: 8px;
+margin-bottom: 20px;
+
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.conference-image img {
+max-width: 100%;
+height: auto;
+border-radius: 5px;
+}
+
+.conference-info {
+margin: 10px 0;
+}
+
+.conference-card__star{
+position: absolute;
+top: 0px;
+}
+.conference-card__price{
+position: absolute;
+left: 280px;
+top: 10px;
+}
+
+
+.conference-info h2 {
+font-size: 1.5rem;
+margin-bottom: 10px;
+}
+
+.conference-info p {
+font-size: 1rem;
+margin: 5px 0;
+}
+
+.btn {
+background-color: #007bff;
+color: white;
+text-decoration: none;
+padding: 10px 20px;
+border-radius: 5px;
+display: inline-block;
+margin-top: 10px;
+}
+
+.btn:hover {
+background-color: #0056b3;
+} 
+
+
+.custom-node-page{
+background-color: red;
+}
+
+/* Basic styling for the tabs */
+.tabs-section {
+margin: 20px 0;
+}
+
+.nav-tabs {
+margin-bottom: 25px;
+margin-left: 20%;
+margin-right: 10%;
+}
+
+.nav-tabs li {
+display: inline-block;
+margin-right: 100px;
+}
+
+.nav-tabs li a {
+padding: 15px 15px 0px 15px;
+display: inline-block;
+font-weight: bold;
+text-decoration: none;
+color: blue;
+cursor: pointer;
+}
+
+.nav-tabs li.active a {
+font-size: 20px;
+color: black;
+
+}
+.nav-tabs li:hover  {
+
+border-bottom: 2px solid #007bff;
+}
+/* Hide all tab content initially */
+.tab-pane {
+display: none;
+}
+
+/* Show only active tab content */
+.tab-pane.active {
+display: block;
+}
+
+/* Flexbox to align cards horizontally (optional based on your layout) */
+.cards-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+.cards-container .views-row {
+flex: 0 1 30%;
+box-sizing: border-box;
+margin: 10px;
+}
+.custom-carousel {
+position: relative;
+}
+
+.carousel-track-container {
+width: 100%;
+}
+
+.carousel-track {
+display: flex;
+transition: transform 0.5s ease;
+}
+.views-view-grid .views-col{
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+.page-wrapper *:focus, .ui-dialog *:focus{
+box-shadow:none;
+}
+.carousel-slide {
+min-width: 30%; /* Adjust width as per the number of visible slides */
+box-sizing: border-box;
+padding: 10px;
+}
+
+.carousel-nav {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+background:none;
+border: none;
+color: gray;
+padding: 10px;
+cursor: pointer;
+font-size: 40px;
+z-index: 10;
+}
+
+.carousel-nav.prev {
+left: 10px;
+}
+
+.carousel-nav.next {
+right: 10px;
+}
+
+.carousel-nav:hover {
+color: #0056b3;
+}
+.conference-card .hover-field{
+display: none; /* Initially hide the field */
+transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+.conference-card:hover .hover-field {
+display: block; /* Show the field when the card is hovered */
+}
+
+.views-col .hover-field{
+display: none; /* Initially hide the field */
+transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+.views-col:hover .hover-field {
+display: block; /* Show the field when the card is hovered */
+}
+/* .views-col:hover {
+transform: scale(1.2); 
+} */
+.views-col {
+width:360px !important;
+margin-right: 20px;
+}
+
+
+
+
+.mainimage{
+
+position: relative;
+width: 100%;
+transition: height 0.3s ease-in-out;
+}
+
+div > div.custom-carousel > div > div > div > div > div.views-col:hover > div.views-field.views-field-field-card- > div > span > img{
+height: 150px;
+}
+
+.price{
+position: absolute;
+top: 20px;
+padding-left: 275px;
+}
+
+.star{
+position: absolute;
+top: 10px;
+
+}
+
+.ck .ck-widget:hover {
+outline-color: none !important;
+}
+#icon1{
+color:#CED0D4;
+}
+
+#icon1:hover{
+color: #0B80CF;
+
+}
+
+#icon2:hover{
+color: #0B80CF;
+
+}
+/* Basic styling for the tabs */
+.tab {
+display: inline-block;
+padding: 10px 20px;
+cursor: pointer;
+font-size: 18px;
+color: #333;
+text-align: center;
+margin-right: 15px;
+position: relative;
+}
+
+.tab:hover {
+color: #007bff;
+}
+
+/* Horizontal line on the active tab */
+.active-tab {
+border-bottom: 3px solid #007bff; /* Customize the color */
+}
+
+.hidden {
+display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Styles - Screens less than 768px */
+@media (max-width: 768px) {
+.nav-tabs {
+  margin-left: 10% !important;
+  margin-right: 10%!important;
+}
+.nav-tabs li {
+  display: inline-block;
+  flex: 1 1 100%;
+  margin-bottom: 10px;
+ margin-right: 100px !important;
+
+}
+
+
+.nav-tabs li a {
+  width: 100%;
+  font-size: 14px;
+  padding: 12px;
+}
+
+.tab-content {
+  padding: 10px;
+}
+.cards-container {
+display: block;
+width: 100%;
+}
+.cards-container .conference-card {
+width: 100%;
+margin-bottom: 20px;
+}
+
+}
+
+/* Ensure cards inside tab content are 100% width on mobile */
+/* .cards-container {
+display: block;
+width: 100%;
+} */
+
+/* Optional: Style cards inside tabs for mobile responsiveness */
+/* .cards-container .conference-card {
+width: 100%;
+margin-bottom: 20px;
+} */  
+ 
+
+
+
+
+
+
+
+
+
+
+

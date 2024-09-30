@@ -33,6 +33,8 @@
  */
 #}
 
+<!-- THEME DEBUG -->
+<!-- theme_name: theme-name/templates/page.html.twig -->
 
         <!-- Your view output here -->
 
@@ -44,41 +46,110 @@
 
 <div{{ attributes.addClass(classes) }}>
 
-  {{ title_prefix }}
-  {{ title }}
-  {{ title_suffix }}
+<div class="conference-card" {{ attributes.addClass('custom-node-page') }} {{ attributes }}>
+    <div class="conference-card__image">
+        {% if content.field_card_ %}
 
-  {% if header %}
-    <header>
-      {{ header }}
-    </header>
-  {% endif %}
+        <span class="mainimage">  {{ content.field_card_ }}</span>
+        {% endif %}
+    </div>
+    <div class="conference-card__details">
+     {#   {{ content.field_card_title }}#} 
+        <div class="conference-card__meta" >
+            <p >{{ content.field_texticons }}</p>
+        <p>{{ content.field_iconsgrid }}</p>
+            {% if content.field_free.value == 1 %}
+              <span class="conference-card__free">Free</span>
+            {% else %}
+           
+              <span class="conference-card__star">{{ content.field_price }}</span>
+               <span class="conference-card__price">{{ content.field_priceimg}}</span>
+            {% endif %}
+        </div>
+     {#   <a href="{{ url }}" class="conference-card__link">View Details</a> #}
+    </div>
+</div>
 
-  {{ exposed }}
-  {{ attachment_before }}
 
-  {% if rows -%}
+<div class="tabs">
+  <!-- Tab Links -->
+  <ul class="tab-links">
+    <li class="active"><a href="#tab1">Tab 1</a></li>
+    <li><a href="#tab2">Tab 2</a></li>
+    <li><a href="#tab3">Tab 3</a></li>
+  </ul>
 
-    {{ rows }}
-              <li class="pager__item pager__item--mini pager__item--action pager__item--previous"><a class="pager__link pager__link--mini pager__link--action-link" title="Go to previous page" href="/drupaltask/cards-view?page=0"><span class="visually-hidden">Previous page</span></a></li>
+  <!-- Tab Content -->
+  <div class="tab-content">
+    <!-- Tab 1 Content -->
+    <div id="tab1" class="tab active">
+      <div class="card">
+        <h3>Card 1 - Tab 1</h3>
+        <p>This is the content of the first card in Tab 1.</p>
+      </div>
+      <div class="card">
+        <h3>Card 2 - Tab 1</h3>
+        <p>This is the content of the second card in Tab 1.</p>
+      </div>
+      <div class="card">
+        <h3>Card 3 - Tab 1</h3>
+        <p>This is the content of the third card in Tab 1.</p>
+      </div>
+    </div>
 
-  {% elseif empty -%}
-    {{ empty }}
+    <!-- Tab 2 Content -->
+    <div id="tab2" class="tab">
+      <div class="card">
+        <h3>Card 1 - Tab 2</h3>
+        <p>This is the content of the first card in Tab 2.</p>
+      </div>
+      <div class="card">
+        <h3>Card 2 - Tab 2</h3>
+        <p>This is the content of the second card in Tab 2.</p>
+      </div>
+      <div class="card">
+        <h3>Card 3 - Tab 2</h3>
+        <p>This is the content of the third card in Tab 2.</p>
+      </div>
+    </div>
 
-  {% endif %}
-
-  {{ pager }}
-  {{ attachment_after }}
-  {{ more }}
-
-  {% if footer %}
-    <footer>
-      {{ footer }}
-    </footer>
-  {% endif %}
-
-  {{ feed_icons }}
-
-</div><li class="pager__item pager__item--mini pager__item--action pager__item--next scroll-right"><a class="pager__link pager__link--mini pager__link--action-link" title="Go to next page" href="/drupaltask/cards-view?page=1"><span class="visually-hidden">Next page</span></a></li></div>
-
+    <!-- Tab 3 Content -->
+    <div id="tab3" class="tab">
+      <div class="card">
+        <h3>Card 1 - Tab 3</h3>
+        <p>This is the content of the first card in Tab 3.</p>
+      </div>
+      <div class="card">
+        <h3>Card 2 - Tab 3</h3>
+        <p>This is the content of the second card in Tab 3.</p>
+      </div>
+      <div class="card">
+        <h3>Card 3 - Tab 3</h3>
+        <p>This is the content of the third card in Tab 3.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</article>
    </div>
+
+{#
+<div class="conference-list">
+  {% for row in rows %}
+    <div class="conference-card">
+      <div class="conference-image">
+        <img src="{{ row.content['#row']._entity.	field_card_.entity.url }}" alt="{{ row.content['#row']._entity.title.value }}">
+      </div>
+      <div class="conference-info">
+        <h2>{{ row.content['#row']._entity.field_card_title.value }}</h2>
+        <p><strong>Date:</strong> {{ row.content['#row']._entity.field_date.value|date("d M Y") }}</p>
+        <p><strong>Location:</strong> {{ row.content['#row']._entity.field_location.value }}</p>
+        <p><strong>Price:</strong> ₹ {{ row.content['#row']._entity.field_price.value }}</p>
+      </div>
+      <a href="{{ row.content['#row']._entity.url }}" class="btn btn-primary">View Details</a>
+    </div>
+  {% endfor %}
+</div>
+
+
+#}

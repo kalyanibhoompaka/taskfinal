@@ -6,3 +6,29 @@
 function my_custom_theme_preprocess_block(&$variables) {
   // Add custom preprocessing here.
 }
+
+/**
+ * Implements hook_preprocess_HOOK() for page templates.
+ */
+function my_custom_theme_preprocess_page(&$variables) {
+  // Embed the "Featured Conferences" view programmatically.
+  $variables['featured_conferences'] = \Drupal\views\Views::getView('viewtab1');
+  if ($variables['featured_conferences']) {
+    $variables['featured_conferences']->setDisplay('block_1');
+    $variables['featured_conferences'] = $variables['featured_conferences']->render();
+  }
+
+  // Embed the "Recommended Conferences" view programmatically.
+  $variables['recommended_conferences'] = \Drupal\views\Views::getView('viewtab2');
+  if ($variables['recommended_conferences']) {
+    $variables['recommended_conferences']->setDisplay('block_1');
+    $variables['recommended_conferences'] = $variables['recommended_conferences']->render();
+  }
+
+  // Embed the "Past Conferences" view programmatically.
+  $variables['past_conferences'] = \Drupal\views\Views::getView('viewtab3');
+  if ($variables['past_conferences']) {
+    $variables['past_conferences']->setDisplay('block_1');
+    $variables['past_conferences'] = $variables['past_conferences']->render();
+  }
+}

@@ -4,3 +4,7 @@ global-styling:
       css/style.css: {}
   js:
     js/script.js: {}
+    js/carousel.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings
